@@ -1,5 +1,5 @@
 
-import './employers-list-item.css';
+import './employers-list-item.scss';
 
 const EmployersListItem = (props) => {
 
@@ -13,7 +13,8 @@ const EmployersListItem = (props) => {
        <li className={classes}>
            <span className="list-group-item-label"
                  data-toggle="like"
-                onClick={toggleOnProp}>{name}</span>
+                 tabIndex="0"
+                 onClick={toggleOnProp}>{name}</span>
            <input type="text" className="list-group-item-input" defaultValue={salary + ' $'}/>
            <div className='d-flex justify-content-center align-items-center'>
                <button type="button"

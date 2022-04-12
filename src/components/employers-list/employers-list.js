@@ -1,4 +1,4 @@
-import './employers-list.css'
+import './employers-list.scss'
 
 
 import EmployersListItem from "../employers-list-item/employers-list-item";
