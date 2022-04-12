@@ -67,12 +67,6 @@ class App extends Component{
         this.setState({term})
     }
 
-    onIncrease = () => {
-        this.setState(({data}) => ({
-            data: data.filter(item => item.increase)
-        }))
-    }
-
     onUpdateFilter = (filterValue) => {
         this.setState({filterValue})
     }
